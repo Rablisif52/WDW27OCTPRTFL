@@ -1,0 +1,160 @@
+/* Reset CSS untuk menghilangkan gaya bawaan browser */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Gaya dasar halaman */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Gaya container */
+.container {
+    background-image: url(1322308.jpeg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    /* border: 5px solid lightblue; */
+    padding: 50px;
+}
+
+/* Gaya avatar */
+.avatar {
+    text-align: center;
+}
+
+.avatar img {
+    image-orientation: from-image;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+}
+
+/* Gaya konten */
+.content {
+    text-align: center;
+}
+
+.content h1 {
+    color: white;
+    font-family: monospace;
+    font-size: 40px;
+    margin: 10px 0;
+}
+
+.content p {
+    color: yellowgreen;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
+
+/* Gaya About Me */
+
+.about {
+    background-color: rgb(89, 147, 174);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    height: 150px;
+    width: auto;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 25px;   
+    transition: all 0.5s ease-in-out;
+}
+
+.about:hover {
+    transform: translate(5px, 5px);
+}
+
+.about img{
+    text-align: center;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.tentang {
+    margin-left: 20px;
+}
+
+.judul {
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.isi {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+/* Gaya Project */
+
+.project {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    width: auto;
+    padding: 50px;
+    margin: 20px;
+}
+
+.project div {
+    transition: all 0.3s ease-in-out;
+    border-radius: 25px;
+}
+
+.project div:hover {
+    background-color: aqua;
+    opacity: 0.2;
+    transform: translate(5px, 5px);
+}
+
+.pr1 {
+    background-color: rgb(230, 195, 195);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    width: 30%;
+    padding: 50px;
+    margin: 10px;
+}
+
+.pr2 {
+    background-color: rgb(36, 165, 103);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    width: 30%;
+    padding: 50px;
+    margin: 10px;
+}
+
+.pr3 {
+    background-color: rgb(30, 108, 62);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    width: 30%;
+    padding: 50px;
+    margin: 10px;
+}
